@@ -225,8 +225,14 @@ typedef strcut _0x58 {
 
 # 工具
 
-
+https://github.com/wqreytuk/for_public_local_policy_editor_study/blob/main/%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E3%80%8A%E6%88%91%E5%90%83%E4%BD%A0%E5%AE%B6%E7%B1%B3%E4%BA%86%E3%80%8B%E5%9B%9E%E5%A4%8Dbqg%E8%8E%B7%E5%8F%96%E5%AF%86%E7%A0%81.7z
 
 # windows7和windows10测试通过
 
 实际测试发现，只要是administrator权限就可以了
+
+开启后直接使用如下方式链接即可
+
+```
+net use \\targetIP\sharename "" /user:Guest
+```
